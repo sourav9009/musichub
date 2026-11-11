@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <META name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Music Hub</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1> Music Hub</h1>
+    
+        <input
+            type="text"
+            id="search"
+            placeholder="search your music..."
+        >
+
+    </header>
+
+    <main>
+
+        <section class="welcome">
+
+            <h2>Welcome to Music Hub</h2>
+
+            <p>Your personal music library</p>
+
+        </section>
+
+        <section class="library">
+
+            <h2>My Music Library</h2>
+
+            <label for="musicFiles" class="upload-btn">
+                   Upload Your Music 
+            </label>
+
+            <input
+               type="files"
+               id="musicFiles"
+               accept="audio/*"
+               multiple
+               hidden
+            >
+            
+            <div id="musicList">
+
+                <p class="empty">
+                    No music uploaded yet.
+                </p>
+
+            </div>
+
+        </section>
+        
+        <section class="player">
+            <h3 id="songName">Select a song</h3>
+
+            <audio id="audioPlayer" controls<>/audio>
+
+            <a id="downloadBtn" hidden download>
+                Download MP3
+            </a>    
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p> 2026 Music Hub</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

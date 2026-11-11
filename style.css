@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: #10101a;
+
+    colour: white;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+header {
+
+    background: #191929;
+
+    padding: 25px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+}
+
+input[type="text"] {
+
+    padding: 12px;
+
+    border-radius: 20px;
+
+    border: none;
+
+    width: 250px;
+
+}
+
+
+main {
+
+    padding: 30px;
+
+}
+
+
+.welcome {
+
+    background: linear-gradient(
+        120deg,
+        #4422aa,
+        #087c85
+    );
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.library {
+
+    background: #191929;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+}
+
+
+.library h2 {
+
+    margin-bottom: 20px;
+
+}
+
+
+.upload {
+
+    display: incline-block;
+
+    background: #7c3aed;
+
+    color: white;
+
+    padding: 12px 24px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+
+}
+
+
+#musicList {
+
+    margin-top: 25px;
+
+}
+
+
+.song:hover {
+
+    background: #393958;
+
+}
+
+
+.player {
+
+    background: #191929;
+
+    margin-top: 25px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+}
+
+
+audio {
+
+    width: 100%;
+
+    margin-top: 20px;
+
+}
+
+
+#downloadBtn {
+
+    display: inline-block;
+
+    margin-top: 15px;
+
+    background: #00cba9;
+
+    color: black;
+
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+}
+
+
+footer {
+
+    text-align: center;
+
+    padding: 25px;
+
+    color: #aaa;
+
+}
